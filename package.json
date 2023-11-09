@@ -1,7 +1,7 @@
 {
   "name": "02tut",
   "version": "0.1.0",
-  "homepage": "https://nix3213.github.io/react_deploy_gh",
+  "homepage": "https://nix3213.github.io/react_deploy_netlify",
   "private": true,
   "dependencies": {
     "colornames": "^1.1.1",
@@ -11,7 +11,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build", 
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
